@@ -1,0 +1,22 @@
+.socials-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1.2rem;
+  position: absolute;
+  color: white;
+  z-index: 11111111;
+  top: 87%;
+  left: 5%;
+}
+
+.fllw-btn {
+  border: 2px solid white;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1rem;
+  width: 6vw;
+  background-color: transparent;
+  cursor: pointer;
+}

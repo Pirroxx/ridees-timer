@@ -6,19 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prefix": "postcss ../../src/components/countdown.css --use autoprefixer -d ../../prefixed/style.css"
   },
   "dependencies": {
+    "@leenguyen/react-flip-clock-countdown": "^1.4.1",
+    "@rumess/react-flip-countdown": "^1.2.6",
+    "autoprefixer": "^10.4.16",
+    "next": "13.5.4",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "react-timer-hook": "^3.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5"
   }
 }
