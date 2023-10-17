@@ -5,6 +5,13 @@
   height: 100vh;
   gap: 15rem;
 }
+.mac-class-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  gap: 15rem;
+}
 .fliper {
   /* position: relative; */
   display: -webkit-box;
@@ -47,6 +54,28 @@
   flex-direction: column;
   margin-left: 37rem;
   margin-top: 5rem;
+}
+.mac-class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 30rem;
+  margin-top: 10rem;
+}
+.new-classname {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 13.7rem;
+  margin-top: 0;
 }
 .flip {
   --fcc-flip-duration: 0.5s !important; /* transition duration when flip card */
